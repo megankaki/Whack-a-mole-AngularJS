@@ -16,7 +16,7 @@
 
 		<!-- 5 - use ng-repeat to display your array of holes. Each one should have a class of "hole" that gives it a width, height, and border -->
 		<div class="wrapper">
-			<div class="holeClass" ng-repeat="hole in mainCtrl.holesList" ng-class="{moleIsHere: hole.moleIshere}" ng-click="mainCtrl.whackMole($index)"> {{hole.moleIshere}} </div>
+			<div class="holeClass" ng-repeat="hole in mainCtrl.holesList" ng-class="{moleIsHere: hole.moleIsHere}" ng-click="mainCtrl.whackMole($index)"> {{hole.moleIsHere}} </div>
 		</div>
 		<!-- 6 - use ng-class to show mole.png as a background image in your CSS, if the mole is in that hole. Use this link as a resource on how to use ng-class (scroll down to the section titled "ng-class using evaluated expression"): https://scotch.io/tutorials/the-many-ways-to-use-ngclass#ngclass-using-evaluated-expression  -->
 
