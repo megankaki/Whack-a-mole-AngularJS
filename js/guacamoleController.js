@@ -36,6 +36,7 @@ angular
         
         if (self.holesList[$index].moleIshere == true){
           alert("You hit a mole!");
+          self.score++;
         } else if (self.holesList[$index].moleIshere == false){
             alert("Nothing is there!");
         }
